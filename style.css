@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    color: white;
+}
+
+.main-body{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-body > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+.main-body > form >input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: beige;
+    border-bottom: 1px solid white;
+}
+
+.main-body > form > .radios{
+    width: 50%;
+    display: flex;
+    gap: 0 2rem;
+}
+
+.main-body button{
+    width: 20%;
+    margin: 1.2rem 0;
+    padding: 6px 8px;
+    font-size: 1.2rem;
+}
